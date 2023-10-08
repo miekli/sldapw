@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-style:initial;
+}
+
+h1{
+    color: rgb(0, 94, 177);
+}
+.nav-container{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 16px 0;
+    border : 6px;
+}
+.nav-logo{
+    color: blue;
+    font-weight: 900;
+    font-size: 18px;
+}
+.nav-mail {
+    color: navy;
+    font-weight: 300;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  body{
+    background-image: url(1022385_wallpapers-papper-crumpled-paper-4-5000x3750_5000x3750_h.jpg);
+    width: 100%;
+    height: 100%;
+    padding: 0 64px;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .gambardanjudul{
+    width: 100%;
+    display: relative;
+  
+    .judul {
+      width: 100%;
+      font-size: 100px;
+      text-align: center;
+      font-weight: 900;
+      letter-spacing: -2px;
+    }
+  
+    .gambar{
+      width: 225px;
+      height: 225px;
+      position: absolute;
+      inset: 0;
+      margin: 50px auto;
+      border-radius: 50%;
+      overflow: hidden;
+  
+      .ukurangambar {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: 10px;
+      }
+    }
+  }
+  .ukurantabel{
+    border : 10px navy solid;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+  .tentangsaya{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+.biodata{
+    margin-top: 50px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    margin-bottom: 50px;
+    font-weight: 500px;
+    font-size: 20px;
+    max-width: 400px;
+    flex: 1;
+}
+.lokasi{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    flex: 1;
+    margin-bottom: 20px;
+}
+  }
